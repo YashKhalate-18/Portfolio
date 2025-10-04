@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  
+  <header>
+    <nav>
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <section class="hero">
+    <div class="hero-img">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzDYn98qakKZU8gmpKSCNFJAveveVvfalvYw&s" alt="My Photo">
+    </div>
+    <div class="hero-content">
+    <h2>Hello, I'm <span>Yash Khalate</span></h2>
+    <p>Aspiring Web Developer | Designer | Tech Enthusiast</p>
+    </br>
+    <a href="#projects" class="btn">View My Work</a>
+    </div>
+   
+  </section>
+
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Yash Khalate, a Computer Science Engineering student passionate about web development, problem solving, and creating interactive projects.</p>
+  </section>
+
+  
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">C++</div>
+      <div class="skill">Python</div>
+    </div>
+  </section>
+
+  
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Project 1:-Website Status Checker</h3>
+        <p>Concept: A clean, single-page web application where a user can enter any website URL and instantly check if it's online or offline.
+         </p>
+         <br/> 
+         <p>
+​Goal: To build a practical tool that provides real-time website availability status and basic diagnostic information, while learning about front-end to back-end communication (API calls).
+</p>
+<br/>
+<p>
+​Key Features:
+<p>
+​Front-End: A simple interface with an input box for the URL and a button. The results area will dynamically update to show the status (e.g., "Up" or "Down"). Built with HTML, CSS, and JavaScript.</p>
+<p>
+​Back-End: A simple API (can be built with Node.js/Express or Python/Flask) that receives the URL from the front-end.</p>
+</p>
+<br/>
+<p>
+
+​Logic: The back-end sends a request to the target URL. Based on the HTTP response code (e.g., 200 OK vs. 404 Not Found or a timeout), it determines the status and sends a clear success or failure message back to the front-end to be displayed.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2:-Interactive Community Map</h3>
+        <p>Concept: A web application that displays a map where users can collaboratively add and view pins for local points of interest, like a good street food vendor, a quiet park, or a local event.
+          </p>
+        <br/>
+        <p>
+​Goal: To create a crowd-sourced, interactive map and gain experience with third-party APIs (like a mapping library) and database management.
+</p>
+<br/>
+<p>
+​Key Features:
+<p>
+​Front-End: Integrates a mapping library like Leaflet.js (free and open-source) or Google Maps API. Users can click on the map to add a pin, which opens a form to add a title and a short description.
+</p>​
+<p>
+Back-End: An API to handle creating and retrieving pin data.
+</p>
+<p>
+​Database: A database (like MongoDB or PostgreSQL) to store the geographic coordinates (latitude, longitude) and text information for each pin. When the page loads, the app fetches all pin data from the database and displays them on the map.</p>
+</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Get in touch with me!</p>
+    <p>Email: <a href="mailto:yashkhalate151@gmail.com">yashkhalate151@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Yash Khalate. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
